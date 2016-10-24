@@ -10,9 +10,9 @@ New Vagrant boxes maintained by atlas-vagrant start with a bare image from a rep
 
 ## List of Atlas Vagrant Boxes
 
-Platform | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html) | Update Series | Origin
----------|------------|---------------|-------
-Windows | [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm) | `devopsgroup-io/windows_server-2012r2-standard-amd64-nocm` | 2016 October | (OpenTable)[https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm]
+Platform | System | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html) | Latest Update Series | Origin
+---------|--------|----------------------------------------------------------|----------------------|-------
+Windows | [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm) | `devopsgroup-io/windows_server-2012r2-standard-amd64-nocm` | 2016 October | [OpenTable](https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm)
 
 
 ## Maintenance of a Vagrant Box
