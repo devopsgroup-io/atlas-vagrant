@@ -7,11 +7,16 @@ New Vagrant boxes maintained by atlas-vagrant start with a bare image from a rep
 
 *[devopsgroup.io](https://devopsgroup.io) infrastructure experts do the research, work, and publishing of the atlas-vagrant boxes. Leaving you with a bare, yet updated, Vagrant box that is ready for your implementation.*
 
-## List of Vagrant Boxes
-### Windows
-* [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
+
+## List of Atlas Vagrant Boxes
+
+Platform | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html) | Update Series | Origin
+---------|------------|---------------|-------
+Windows | [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm) | `devopsgroup-io/windows_server-2012r2-standard-amd64-nocm` | 2016 October | (OpenTable)[https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm]
+
 
 ## Maintenance of a Vagrant Box
+
 * `vagrant up <machine>`
 * Provider guest addition updates performed
 * System updates performed
