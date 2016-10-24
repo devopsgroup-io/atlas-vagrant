@@ -14,6 +14,7 @@ Vagrant.configure("2") do |config|
     config.vm.guest = :windows
     config.vm.boot_timeout = 60 * 7
     config.vm.communicator = "winrm"
+    config.vm.synced_folder ".", "/vagrant", disabled: true
   end
 
 end
