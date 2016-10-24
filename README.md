@@ -15,5 +15,6 @@ New Vagrant boxes maintained by atlas-vagrant start with a bare image from a rep
 * `vagrant up <machine>`
 * Provider guest addition updates performed
 * System updates performed
+* System cleanup performed
 * `vagrant package <machine>`
 * Release the Vagrant Box per [Creating a New Vagrant Box](https://vagrantcloud.com/help/vagrant/boxes/create)
