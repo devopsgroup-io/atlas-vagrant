@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
     # source => https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm
     config.vm.box = "devopsgroup-io/windows_server-2012r2-standard-amd64-nocm"
     config.vm.provider :virtualbox do |provider|
-      provider.memory = 512
+      provider.memory = 1024
       provider.cpus = 1
     end
     config.vm.guest = :windows
