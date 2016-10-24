@@ -5,6 +5,7 @@ This project is designed to take common systems, define them, and then track a w
 
 ## Maintenance of a Vagrant Box
 * `vagrant up <machine>`
+* Provider guest addition updates performed
 * System updates performed
 * `vagrant package <machine>`
 * Release the Vagrant Box per [Creating a New Vagrant Box](https://vagrantcloud.com/help/vagrant/boxes/create)
