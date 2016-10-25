@@ -8,14 +8,24 @@ New Vagrant boxes maintained by atlas-vagrant start with a bare image from a rep
 *[devopsgroup.io](https://devopsgroup.io) infrastructure experts do the research, work, and publishing of the atlas-vagrant boxes. Leaving you with a bare, yet updated, Vagrant box that is ready for your implementation.*
 
 
-## List of Atlas Vagrant Boxes
+## Getting Started
 
-Platform | System | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html) | Latest Update Series | Origin
----------|--------|----------------------------------------------------------|----------------------|-------
+Using a Vagrant box maintained by atlas-vagrant is easy, just define `config.vm.box` to a box of your choice. Follow the Vagrant [Getting Started](https://www.vagrantup.com/docs/getting-started/boxes.html) documentation for more information.
+
+```
+Vagrant.configure("2") do |config|
+  config.vm.box = "devopsgroup-io/windows_server-2012r2-standard-amd64-nocm"
+end
+```
+
+## List of Maintained Atlas Vagrant Boxes
+
+Platform | System | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html)
+---------|--------|---------------------------------------------------------
 Windows | [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm) | `devopsgroup-io/windows_server-2012r2-standard-amd64-nocm` | 2016 October | [OpenTable](https://atlas.hashicorp.com/opentable/boxes/win-2012r2-standard-amd64-nocm)
 
 
-## Maintenance of a Vagrant Box
+## Vagrant Box Maintenance Release Workflow
 
 * `vagrant up <machine>`
 * Provider guest addition updates performed
