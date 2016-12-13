@@ -28,7 +28,8 @@ Windows | [Windows Server 2012 R2 Standard 64-bit](https://atlas.hashicorp.com/d
 ## Vagrant Box Maintenance Release Workflow
 
 * `vagrant destroy <machine>`
-* `vagrant box update <machine>`
+* `vagrant box list`
+* `vagrant box update --box <box>`
 * `vagrant up <machine>`
 * Provider guest addition updates performed
 * System updates performed
