@@ -8,7 +8,7 @@ New Vagrant boxes maintained by atlas-vagrant start with a bare image from a rep
 *[devopsgroup.io](https://devopsgroup.io) infrastructure experts do the research, work, and publishing of the atlas-vagrant boxes. Leaving you with a bare, yet updated, Vagrant box that is ready for your implementation.*
 
 
-## Getting Started
+# Getting Started
 
 Using a Vagrant box maintained by atlas-vagrant is easy, just define `config.vm.box` to a box of your choice. Follow the Vagrant [Getting Started](https://www.vagrantup.com/docs/getting-started/boxes.html) documentation for more information.
 
@@ -36,6 +36,10 @@ Microsoft follows a monthly release cycle for updates, referred to as "Patch Tue
 * [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
 * [Security Updates Guide](https://portal.msrc.microsoft.com/en-us/security-guidance)
 
+
+# Contribute
+
+Our core team maitains this project to ensure a consistent and high degree of quality for each virtual machine box. If you would like to explore this process on your own, we've outlined our exact steps below.
 
 ## Vagrant Box Maintenance Release Workflow
 
