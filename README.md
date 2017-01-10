@@ -27,9 +27,11 @@ Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | 2016 December | [`d
 
 ## Vendor Update Release Cycle
 
+atlas-vagrant is meant to closely track the iterative major update release cycle maintained by operating system vendors. atlas-vagrant maintained boxes will normally track to release within 24 hours of the vendor's release.
+
 ### Windows
 
-Microsoft follows a monthly release cycle for updates, referred to as "Patch Tuesday". This happens on the 2nd Tuesday of each month. The updates are posted to the Microsoft Security Bulletin, which will be replaced by the Security Updates Guide as of February 2017.
+Microsoft follows a monthly release cycle for updates, referred to as "Patch Tuesday". This happens on the 2nd Tuesday of each month at around 10am Pacific time. The updates are posted to the Microsoft Security Bulletin, which will be replaced by the Security Updates Guide as of February 2017.
 
 * [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
 * [Security Updates Guide](https://portal.msrc.microsoft.com/en-us/security-guidance)
