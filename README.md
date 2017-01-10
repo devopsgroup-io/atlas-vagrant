@@ -36,3 +36,11 @@ Windows | Windows Server 2012 R2 Standard 64-bit | [Microsoft Security Bulletin]
 * System cleanup performed
 * `vagrant package <machine>`
 * Release the Vagrant Box per [Creating a New Vagrant Box](https://vagrantcloud.com/help/vagrant/boxes/create)
+
+
+## Vagrant Box Cleanup
+
+Over time you will find having many box versions that consume many gigabytes of disk space. To remove the old boxes, run the following commands:
+
+* `vagrant box list`
+* `vagrant box remove <machine> --box-version <version>`
