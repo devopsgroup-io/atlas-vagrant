@@ -22,7 +22,17 @@ end
 
 Platform | System | Release Cycle | Latest Release | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html)
 ---------|--------|---------------|----------------|---------------------------------------------------------
-Windows | Windows Server 2012 R2 Standard 64-bit | [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx) | 2016 December | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
+Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | 2016 December | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
+
+
+## Vendor Update Release Cycle
+
+### Windows
+
+Microsoft follows a monthly release cycle for updates, referred to as "Patch Tuesday". This happens on the 2nd Tuesday of each month. The updates are posted to the Microsoft Security Bulletin, which will be replaced by the Security Updates Guide as of February 2017.
+
+* [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
+* [Security Updates Guide](https://portal.msrc.microsoft.com/en-us/security-guidance)
 
 
 ## Vagrant Box Maintenance Release Workflow
