@@ -31,15 +31,15 @@ atlas-vagrant is meant to closely track the iterative major update release cycle
 
 ### Windows
 
-Microsoft follows a monthly release cycle for updates, referred to as "Patch Tuesday". This happens on the 2nd Tuesday of each month at around 10am Pacific time. The updates are posted to the Security Updates Guide as of February 2017.
+Microsoft follows a monthly release cycle for updates, referred to as "Patch Tuesday". This happens on the 2nd Tuesday of each month at around 10am Pacific time. The updates are posted to the Security Updates Guide as of February 2017, replacing the Microsoft Security Bulletin.
 
-* Before February 2017: [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
 * As of February 2017: [Security Updates Guide](https://portal.msrc.microsoft.com/en-us/security-guidance)
+* Before February 2017: [Microsoft Security Bulletin](https://technet.microsoft.com/en-us/library/security/dn631938.aspx)
 
 
 # Contribute
 
-Our core team maitains this project to ensure a consistent and high degree of quality for each virtual machine box. If you would like to explore this process on your own, we've outlined our exact steps below.
+Our core team maintains this project to ensure a consistent and high degree of quality for each virtual machine box. If you would like to explore this process on your own, we've outlined our exact steps below.
 
 ## Vagrant Box Maintenance Release Workflow
 
@@ -65,6 +65,6 @@ These files are located in your home folder at `~/.vagrant.d/boxes/`
 
 ## Vagrant Package Cleanup
 
-Additinally, Vagrant may leave behind gigabytes worth of temporary package files in your home folder at `~/.vagrant.d/tmp/` the folders that start with `vagrant-package` are safe to clean up providing that you're not in the middle of a `vagrant package`. Here is a sample directory that could be deleted:
+Additionally, Vagrant may leave behind gigabytes worth of temporary package files in your home folder at `~/.vagrant.d/tmp/` the folders that start with `vagrant-package` are safe to clean up providing that you're not in the middle of a `vagrant package`. Here is a sample directory that could be deleted:
 
 `~/.vagrant.d/tmp/vagrant-package-20170110-63252-fyv8wu`
