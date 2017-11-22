@@ -68,3 +68,7 @@ These files are located in your home folder at `~/.vagrant.d/boxes/`
 Additionally, Vagrant may leave behind gigabytes worth of temporary package files in your home folder at `~/.vagrant.d/tmp/` the folders that start with `vagrant-package` are safe to clean up providing that you're not in the middle of a `vagrant package`. Here is a sample directory that could be deleted:
 
 `~/.vagrant.d/tmp/vagrant-package-20170110-63252-fyv8wu`
+
+Here is an example command to delete all of the temporary package files:
+
+`rm -rf ~/.vagrant.d/tmp/vagrant-package-*`
