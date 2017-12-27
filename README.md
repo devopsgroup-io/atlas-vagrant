@@ -22,7 +22,7 @@ end
 
 Platform | System | Release Cycle | Latest Release | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html)
 ---------|--------|---------------|----------------|---------------------------------------------------------
-Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | 2017 November | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
+Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | 2017 December | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
 
 
 ## Vendor Update Release Cycle
