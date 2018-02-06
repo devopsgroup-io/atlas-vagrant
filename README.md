@@ -20,9 +20,9 @@ end
 
 ## List of Maintained Atlas Vagrant Boxes
 
-Platform | System | Release Cycle | Latest Release | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html)
----------|--------|---------------|----------------|---------------------------------------------------------
-Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | 2017 December | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://atlas.hashicorp.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
+Platform | System | Release Cycle | [Vagrant Box](https://www.vagrantup.com/docs/boxes.html)
+---------|--------|---------------|---------------------------------------------------------
+Windows | Windows Server 2012 R2 Standard 64-bit | Monthly | [`devopsgroup-io/windows_server-2012r2-standard-amd64-nocm`](https://app.vagrantup.com/devopsgroup-io/boxes/windows_server-2012r2-standard-amd64-nocm)
 
 
 ## Vendor Update Release Cycle
